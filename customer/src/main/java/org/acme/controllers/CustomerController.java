@@ -2,7 +2,7 @@ package org.acme.controllers;
 
 import org.acme.dto.CustomerDTO;
 import org.acme.service.CustomerService;
-import org.postgresql.util.GT;
+
 
 import javax.inject.Inject;
 import javax.transaction.Transactional;
