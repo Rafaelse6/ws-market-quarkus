@@ -58,14 +58,14 @@ public class ProductService {
     }
 
     private ProductEntity mapProductDtoToEntity(ProductDTO productDTO){
-        ProductEntity product = new ProductEntity();
+        ProductEntity productEntity = new ProductEntity();
 
-        product.setName(productDTO.getName());
-        product.setDescription(productDTO.getDescription());
-        product.setCategory(productDTO.getCategory());
-        product.setModel(productDTO.getModel());
-        product.setPrice(productDTO.getPrice());
+        productEntity.setName(productDTO.getName());
+        productEntity.setDescription(productDTO.getDescription());
+        productEntity.setCategory(productDTO.getCategory());
+        productEntity.setModel(productDTO.getModel());
+        productEntity.setPrice(productDTO.getPrice());
 
-        return product;
+        return productEntity;
     }
 }
