@@ -22,5 +22,4 @@ public class CustomerDTO {
     private String address;
 
     private Long age;
-
 }

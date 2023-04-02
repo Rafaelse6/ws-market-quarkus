@@ -21,7 +21,7 @@ public class OrderEntity {
     @GeneratedValue
     private Long orderId;
 
-    private String customerId;
+    private Long customerId;
 
     private String customerName;
 

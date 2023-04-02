@@ -25,5 +25,4 @@ public class ProductDTO {
     private String model;
 
     private BigDecimal price;
-
 }
