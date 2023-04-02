@@ -1,5 +1,6 @@
 package org.acme.dto;
 
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -8,16 +9,21 @@ import lombok.extern.jackson.Jacksonized;
 import java.math.BigDecimal;
 
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 @Jacksonized
-public class OrderDTO {
+public class ProductDTO {
 
-    private Long customerId;
+    private Long id;
 
-    private String customerName;
+    private String name;
 
-    private Long productId;
+    private String description;
 
-    private BigDecimal orderValue;
+    private String category;
+
+    private String model;
+
+    private BigDecimal price;
+
 }
