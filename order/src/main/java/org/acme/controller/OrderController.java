@@ -1,4 +1,4 @@
-package org.acme;
+package org.acme.controller;
 
 import org.acme.dto.OrderDTO;
 import org.acme.services.OrderService;
